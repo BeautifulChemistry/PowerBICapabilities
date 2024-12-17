@@ -1,0 +1,43 @@
+{
+    "dataViewMappings": [
+      {
+        "matrix": {
+          "columns": {
+            "for": {
+              "in": "time"  
+            }
+          },
+          "rows": {
+            "select": [
+              {
+                "for": {
+                  "in": "x"  
+                }
+              },
+              {
+                "for": {
+                  "in": "y"  
+                }
+              },
+              {
+                "for": {
+                  "in": "z"  
+                }
+              }
+            ]
+          },
+          "values": {
+            "select": [
+              {
+                "bind": {
+                  "to": "prdSN" 
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "privileges": []
+  }
+  
